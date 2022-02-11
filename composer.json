@@ -1,0 +1,24 @@
+{
+    "name": "vanex/level3",
+    "description": "SHPP backend php course task.",
+    "autoload": {
+        "psr-4": {
+            "Src\\": "src/",
+            "Framework\\":"framework/"
+        }
+    },
+    "authors": [
+        {
+            "name": "vanex97",
+            "email": "vanex97@gmail.com"
+        }
+    ],
+    "require": {
+        "ext-pdo": "*",
+        "ext-fileinfo": "*",
+        "ext-readline": "*"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.6"
+    }
+}
